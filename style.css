@@ -1,8 +1,7 @@
 body {
-  background: #e5e5e5;
   margin: 0;
   padding: 0;
-  color: #484848;
+  background-color: #484848;
   font-size: 14px;
   font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -16,6 +15,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-bottom-left-radius: 50px;
+}
+
+.main-container {
+  position: relative;
+  width: 375px;
+  height: 628px;
+  background-image: url("images/background.png");
 }
 
 header {
@@ -50,7 +56,7 @@ header {
 
 .intro {
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 24px;
   right: 24px;
   margin-right: 60px;
@@ -105,63 +111,4 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
-
-.ellipse-3 {
-  position: absolute;
-  left: 323px;
-  top: 90px;
-}
-
-.ellipse-11 {
-  position: absolute;
-  top: 67px;
-}
-
-.rectangle-4 {
-  position: absolute;
-  left: 294px;
-  top: 56px;
-}
-
-.rectangle-7 {
-  position: absolute;
-  top: 89px;
-  left: 127.18px;
-}
-
-.ellipse-5 {
-  position: absolute;
-  top: 100px;
-  left: 132px;
-}
-
-.ellipse-4 {
-  position: absolute;
-  left: 237px;
-  top: 639px;
-}
-
-.ellipse-12 {
-  position: absolute;
-  left: 317.76px;
-  top: 467px;
-}
-
-.ellipse-13 {
-  position: absolute;
-  left: 308.18px;
-  top: 478px;
-}
-
-.rectangle-5 {
-  position: absolute;
-  left: 191.82px;
-  top: 636px;
-}
-
-.ellipse-15 {
-  position: absolute;
-  left: 35px;
-  top: 620px;
 }
